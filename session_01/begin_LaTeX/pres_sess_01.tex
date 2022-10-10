@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, left=1in, bottom=1in, right=1in, top=1in}
+\usepackage{hyperref}
+\usepackage{xepersian}
+\settextfont[Scale=1.2]{IRLotus}
+\usepackage{quoting,xparse}
+
+\NewDocumentCommand{\bywhom}{m}{% the Bourbaki trick
+  {\nobreak\hfill\penalty50\hskip1em\null\nobreak
+   \hfill\mbox{\normalfont(#1)}%
+   \parfillskip=0pt \finalhyphendemerits=0 \par}%
+}
+
+\NewDocumentEnvironment{pquotation}{m}
+  {\begin{quoting}[
+     indentfirst=false,
+     leftmargin=\parindent,
+     rightmargin=\parindent]\itshape}
+  {\bywhom{#1}\end{quoting}}
+
+\begin{document}
+% \begin{center}
+% سلام
+% \end{center}
+\title{جلسه‌ی اوّل شیوه‌ی ارائه‌ی مطالب}
+\author{پوریا چراغی}
+\maketitle
+\section{اهمّیّت ارائه‌ی مطالب}
+\begin{pquotation}{\href{https://fa.wikipedia.org/wiki/\%D9\%81\%D8\%B1\%D8\%A7\%D9\%86\%D8\%B3\%DB\%8C\%D8\%B3\_\%D8\%AF\%D8\%A7\%D8\%B1\%D9\%88\%DB\%8C\%D9\%86}{فرانسیس داروین }\LTRfootnote{\lr{Sir Francis Darwin}}} 
+«آن کس\RTLfootnote{باید در مورد املای صحیح («آن کس»، «آن‌کس» یا «آنکس») تحقیق شود.} در علم ستوده می‌شود، که مطلبی را به مردم تفهیم کند، نه آن کسی که برای اوّلین بار به آن مطلب فکر کرده باشد.»
+\end{pquotation}
+\section{قرارداد‌ها}
+\subsection{کار با \LaTeX}
+\begin{itemize}
+\item کلّیات کار با \LaTeX~بر روی یک رایانه
+\item مختصری تاریخچه
+\item \texttt{pdflatex} و \texttt{xelatex}
+\item مقایسه‌ی \LaTeX~با دیگر حروف‌چین‌ها
+\item برچسب‌ها\LTRfootnote{\lr{labels}} و ارجاع‌های درون-متنی
+\item جدول ساده
+\end{itemize}
+\subsection{نمره‌ی اضافی}
+به نخستین دانشجویی که مورد زیر را گوشزد کند،‌ نمره‌ی تشویقی تعلق می‌گیرد:
+\begin{itemize}
+\item استفاده‌ی بنده از یک لغت بیگانه، به شرطی که:
+\begin{enumerate}
+\item \href{https://wiki.apll.ir/word/index.php/%d8%b5%d9%81%d8%ad%d9%87%d9%94_%d8%a7%d8%b5%d9%84%db%8c}{فرهنگستان }معادلی برای آن لغت مصوّب کرده باشد
+\item خودم معادل صحیح را ذکر نکرده باشم
+\end{enumerate}
+\end{itemize}
+\section{فعّالیّت}
+\begin{enumerate}
+\item جدا یا سرهم نوشتن بسیاری از کلمات چالش‌برانگیز است. مرجع صحیح برای رفع ابهام این موارد چیست؟ مرجع پیشنهادیِ شما چه نظری در مورد «آن کس»، «آن‌کس» و «آنکس» دارد؟
+\item علاقه‌مندان، ارائه‌ای در مورد معرّفیِ \LaTeX~آماده کنند. (می‌تواند بخشی از نمره‌ی ارائه‌ی آن‌ها باشد.)
+% \item دلیل عدم حذف شدن تاریخ بعد از استفاده از دستور \texttt{\textbackslash date\{\}}، چه بود؟
+\item فرض کنید در یک دانشکده، مدیران می‌خواهند در مورد افزایش تعداد اتوبوس‌های ایاب و ذهاب تصمیم‌گیری کنند. عده‌ای معتقدند که اینکار باعث بهبود رفاه دانشجویان شده و نتیجتاً به افزایش نمره‌ی آن‌ها خواهد انجامید. این در حالی است که گروه مخالف، افزایش امکانات رفاهی را مفرّی برای انجام فعالیت‌های جانبی و دلیلی برای کاهش نمره‌ی دانشجویان می‌دانند. نظر شما چیست؟
+
+	فرض کنید فردی تازه از راه می‌رسد و شما می‌خواهید موضوع بحث را به وی توضیح دهید. متنی تهیه کرده و در مقدمه‌ی آن  موضوع بحث را برای فردی که اصلاً در جریان قضایا نیست، تعریف کنید. سپس در قسمت بعدی، نظر خود را بیان کرده و آن را با عدلّه‌ی خود همراه نمائید. قسمت نهاییِ متن‌تان باید همه‌ی موارد را جمع‌بندی کند. یک پیش‌نویس در \lr{\texttt{sample.pdf}} قابل رویت است.
+\end{enumerate}
+\end{document}

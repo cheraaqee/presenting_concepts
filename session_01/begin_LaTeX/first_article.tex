@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{hyperref}
+\begin{document}
+\title{A Sample Document to Show How LaTeX Works}
+\author{Pooryaa Cheraaqee}
+\maketitle
+\section{Introduction}
+This introduces the reader to the problem that we want to solve and its importance.
+\section{Related Works} \label{review}
+Here we review what has been done in the past for the particular problem we are approaching.
+
+Such data is presented in table~\ref{anghazi}.
+% Table of scores
+\begin{table}
+\caption{The average and deviation of scores for the courses presented in the department}
+\label{anghazi}
+\begin{tabular}{|l||cc|}
+\hline
+Course Name& Average Score& Deviation \\
+\hline
+Programming& 15& 2.5 \\
+Operating Systems& 12& 7 \\
+\hline
+
+\end{tabular}
+\end{table}
+% End of scores' table
+\section{Fundamentals}
+Here the basics are explained.
+\section{The Proposed Method}
+Here we explain how we've solved the problem. According to our analysis in Section~\ref{review}, we must consider the time complexity.
+\end{document}
