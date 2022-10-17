@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  9 OCT 2022 11:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  17 OCT 2022 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,35 +522,59 @@ Package hyperref Info: Link coloring OFF on input line 5.
 \@outlinefile=\write3
 \openout3 = `more_buses.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
 
 LaTeX Font Warning: Font shape `TU/IRLotus(0)/b/n' undefined
-(Font)              using `TU/IRLotus(0)/m/n' instead on input line 9.
+(Font)              using `TU/IRLotus(0)/m/n' instead on input line 10.
+
+
+LaTeX Warning: Reference `sec:intro' on page 1 undefined on input line 14.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
+(Font)              <5> on input line 15.
+
+LaTeX Warning: Reference `footdir@1' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `footdir@2' on page 1 undefined on input line 15.
+
 [1
 
 ] (./more_buses.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `more_buses.out' has not changed.
-(rerunfilecheck)             Checksum: 405C2B4A944A7FF181CEE6FB8D92D855;257.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `more_buses.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `more_buses.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  405C2B4A944A7FF181CEE6FB8D92D855;257.
  ) 
 Here is how much of TeX's memory you used:
- 12097 strings out of 476127
- 254097 string characters out of 5808345
+ 12095 strings out of 476127
+ 254093 string characters out of 5808345
  695249 words of memory out of 5000000
- 32736 multiletter control sequences out of 15000+600000
+ 32734 multiletter control sequences out of 15000+600000
  472531 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,8n,91p,1042b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
