@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: pres_sess_04.aux
+The style file: ieeetr-fa.bst
+Database file #1: ref.bib
+-- ieeetr-fa.bst version 0.9 (2015/05/09) 
+-- This is a BibTeX style for XePersian: http://www.parsilatex.com
+
+Done.
+You've used 2 entries,
+            2349 wiz_defined-function locations,
+            616 strings with 4989 characters,
+and the built_in function-call counts, 463 in all, are:
+= -- 54
+> -- 8
+< -- 0
++ -- 4
+- -- 2
+* -- 25
+:= -- 61
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 24
+empty$ -- 47
+format.name$ -- 2
+if$ -- 121
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 14
+newline$ -- 18
+num.names$ -- 2
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 6
+stack$ -- 0
+substring$ -- 0
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 3
+write$ -- 27

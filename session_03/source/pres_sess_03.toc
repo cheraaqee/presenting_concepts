@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{نفس ارائه‌ی شفاهی}{2}{0}{1}
+\beamer@sectionintoc {2}{استفاده از \LRE {\LaTeX }}{13}{0}{2}
+\beamer@sectionintoc {3}{مراجع}{29}{0}{3}
