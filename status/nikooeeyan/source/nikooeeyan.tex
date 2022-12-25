@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a3paper, top=0.2cm, bottom=0.2cm, left=0.2cm, right=0.2cm}
+\usepackage{tikz}
+\usetikzlibrary{mindmap, calendar, backgrounds, shadows}
+\usepackage{xepersian}
+\settextfont{XB Niloofar}
+\begin{document}
+\begin{center}
+	\begin{tikzpicture}[mindmap] 
+		\begin{scope}[every node/.style={concept, circular drop shadow,execute at begin node=\hskip0pt},
+			daneshjoo/.append style={
+				concept color=black, fill=white, line width=1ex, text=black, font=\large\scshape},
+			text=white,
+			tamrin/.style={concept color=red,faded/.style={concept color=red!50}},
+			oral/.style={concept color=blue,faded/.style={concept color=blue!50}},
+			activity/.style={concept color=orange,faded/.style={concept color=orange!50}},
+			written/.style={concept color=green!50!black,faded/.style={concept color=green!50!black!50}},
+			exam/.style={concept color=purple!50!black,faded/.style={concept color=green!50!black!50}},
+			grow cyclic,
+			level 1/.append style={level distance=4.5cm,sibling angle=72,font=\scshape},
+			level 2/.append style={level distance=3cm,sibling angle=45,font=\scriptsize}]
+			\node [daneshjoo] {nikooeeyan\\ $\frac{?}{20}$}
+			child [tamrin] {node{\rl{تمرین}\\ \rl{\Large $\frac{?}{5}$}}}
+			child [oral] {node{\rl{ارائه‌ی شفاهی}\\\rl{\Large $\frac{?}{5}$}}}
+			child [activity] {node{\rl{فعّالیّت}}}
+			child [written] {node{\rl{ارائه‌ی کتبی}\\ {\Large $\frac{?}{5}$}}}
+			child [exam] {node{\rl{امتحان}\\ {\Large $\frac{?}{5}$}}};
+		\end{scope}
+	\end{tikzpicture}
+\end{center}
+\end{document}
