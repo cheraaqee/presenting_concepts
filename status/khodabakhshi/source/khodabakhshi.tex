@@ -19,9 +19,13 @@
 			exam/.style={concept color=purple!50!black,faded/.style={concept color=green!50!black!50}},
 			grow cyclic,
 			level 1/.append style={level distance=4.5cm,sibling angle=72,font=\scshape},
-			level 2/.append style={level distance=3cm,sibling angle=45,font=\scriptsize}]
+			level 2/.append style={level distance=3cm,sibling angle=45,font=\scriptsize},
+			level 3/.append style={level distance=2.5cm,sibling angle=15,font=\scriptsize}]
 			\node [daneshjoo] {khodabakhshi\\ $\frac{?}{20}$}
-			child [tamrin] {node{\rl{تمرین}\\ \rl{\Large $\frac{?}{5}$}}}
+			child [tamrin] {node{\rl{تمرین}\\ \rl{\Large $\frac{?}{5}$}}
+			child {node{\rl{نگارش عمومی}\\۶۰\%}}
+			child {node{\rl{روش تحقیق ۱}\\۶۰\%}}
+			}
 			child [oral] {node{\rl{ارائه‌ی شفاهی}\\\rl{\Large $\frac{?}{5}$}}}
 			child [activity] {node{\rl{فعّالیّت}}}
 			child [written] {node{\rl{ارائه‌ی کتبی}\\ {\Large $\frac{?}{5}$}}}

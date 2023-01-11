@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  3 DEC 2022 15:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  11 JAN 2023 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,20 +860,28 @@ LaTeX Font Info:    ... okay on input line 8.
 
 
 LaTeX Font Warning: Font shape `TU/XBNiloofar(0)/m/sc' undefined
-(Font)              using `TU/XBNiloofar(0)/m/n' instead on input line 23.
+(Font)              using `TU/XBNiloofar(0)/m/n' instead on input line 24.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 24.
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 28.
+(Font)              <14.4> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 35.
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
@@ -892,12 +900,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18306 strings out of 476127
- 434543 string characters out of 5808345
- 842145 words of memory out of 5000000
- 38738 multiletter control sequences out of 15000+600000
- 473100 words of font info for 64 fonts, out of 8000000 for 9000
+ 18350 strings out of 476127
+ 435588 string characters out of 5808345
+ 847145 words of memory out of 5000000
+ 38781 multiletter control sequences out of 15000+600000
+ 473108 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,9n,104p,1319b,1181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,10n,104p,1319b,1413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on mokaddar.pdf (1 page).
